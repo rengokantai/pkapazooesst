@@ -1,5 +1,5 @@
 #### pkapazooesst
-#####1
+#####Chapter 1. A Crash Course in Apache ZooKeeper
 ######installing:
 ```
 wget http://apache.mirrors.tds.net/zookeeper/zookeeper-3.4.8/zookeeper-3.4.8.tar.gz && tar -C /usr/share -zxf zookeeper-3.4.8.tar.gz
@@ -116,5 +116,5 @@ connect cluster
 $ ${ZK_HOME}/bin/zkCli.sh –server localhost:2181, localhost:2182, localhost:2183
 ```
 
-
-
+#####Chapter 2. Understanding the Inner Workings of Apache ZooKeeper
+######Watches and ZooKeeper operations
